@@ -1,0 +1,58 @@
+.bg
+{
+    background-color: #000;
+    width: 100%;
+    height:100%;
+    background-size: 100%;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    color: #fff;
+    display: block;
+  }
+  
+  .menu-section {
+    margin-bottom: 80px;
+  }
+  
+  .menu-section-title {
+    font-family: georgia bold italic;
+    font-size: 45px;
+    font-weight:normal;
+    margin: 20px 0; 
+    text-align: Center;
+    display: block;
+    color: #2fcece;
+  }
+  
+  .menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+  }
+  
+  .menu-item-name{
+    font-family: serif;
+    font-weight: bold;
+    color: #5f1782;
+    border-bottom: 2px groove rgb(118, 27, 192);
+  }
+  
+  .menu-item-description {
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 0.9em;
+  }
+  
+  .menu-item-price{
+    float: right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -22px;
+  }
+  .image-item{
+      border-radius: 50%;
+      float:left;
+      margin-left:-100px;
+      margin-top:-10px;
+  }
