@@ -1,13 +1,11 @@
-
-
-
 body{
     font-family:sans-serif;
 }
 #nav-bar{
     position: sticky;
-    top: 0;
     z-index: 10;
+    top: 0;
+    
     
 }
 .navbar{
@@ -23,7 +21,7 @@ body{
     padding:0 10px;
 }
 .navbar-nav li a{
-    color:#fff !important;
+    color:#000 !important;
     font-weight: 600;
     float:right;
     text-align:left;
@@ -38,6 +36,7 @@ body{
 }
 .nav-link:hover{
     color:#000;
+    
 }
 .intro{
     margin:100px;
@@ -61,16 +60,21 @@ body{
     display: inline-block;
     border-style:solid;
     border-color: #000;
+    
 }
 #services{
-    padding:40px 0;
+    padding:50px 0;
+    
 }
 .service-img{
     
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-right: 30px;
+    margin-right: 20%;
+    
 }
 .services{
-    padding:20px;
+    padding:40px;
     
 }
 .services h5{
@@ -103,7 +107,7 @@ body{
 }
 #social-media{
     background:#f8f9fa;
-    padding:40px 0;
+    padding:40px ;
     padding-left: 40%;
     
 }
@@ -111,6 +115,9 @@ body{
     font-size:20px;
     font-weight:600;
     margin-bottom: 20px;
+}
+.find{
+    padding-top: -10%;
 }
 .find::before{
     content:'';
@@ -145,14 +152,22 @@ body{
 #footer{
     background-image: linear-gradient(to right,#5f1782,#a517ba);
     color:#fff;
+    height: 40%;
     
-
 }
-.footer-img{
-    width:80%;
-    height:40%;
-    padding: 30px;
-    padding-left: 28%;
+ .footer-img{
+    width:98%;
+    height:20%;
+    padding: 0px;
+    padding-left: 55%;
+    padding-right:-40%;
+    padding-top: -15%;
+    
+    
+    margin-top: -10%;
+    margin-bottom:-10px;
+    
+    
 
 }
 .footer-text{
@@ -162,12 +177,26 @@ body{
 .footer-widget{
     padding-left:25px;
     margin-top: 0px;
+    
 }
 .fa-map-marker{
     padding-left:25px;
-    margin-top: 100px;
+    margin-top: 10px;
 
 }
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align:centre;
+    margin-left: 20px;
+}
+
+
+
+
 
 
 
