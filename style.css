@@ -1,8 +1,6 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 body{
     font-family:sans-serif;
 }
@@ -47,44 +45,131 @@ body{
 .intro h1{
     font-size: 30px;
     font-style: italic;
+    font-family: cursive;
+
 }
 .intro h4{
     font-style: italic;
+    font-family: cursive;
 }
 .intro a{
     width:135px;
-    color:#fff;
+    color:#000;
     padding:15px 25px;
     margin: 5% auto;
     background: #a517ba;
     display: inline-block;
     border-style:solid;
-    border-color: whitesmoke;
+    border-color: #000;
 }
-#banner{
-    background-image: linear-gradient(to right,#5f1782,#a517ba);
-    color:#fff;
+#services{
+    padding:40px 0;
+}
+.service-img{
     
+    margin-top: 20px;
+}
+.services{
+    padding:20px;
+    
+}
+.services h5{
+    padding:5px;
+    margin-top: 25px;
+}
+.title::before{
+    content:'';
+    background: #7b1798;
+    height:5px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: auto;
+    display:block;
+    transform:translateY(63px);
+}
+.title::after{
+    content:'';
+    background: #7b1798;
+    height:10px;
+    width:50px;
+    margin-left:14%;
+    margin-right: auto;
+    margin-bottom:40px;
+    display:block;
+    transform:translateY(28px);
+}
+.title{
+    padding-left: 40%;
 }
 #social-media{
     background:#f8f9fa;
-    padding:100px 0;
+    padding:40px 0;
+    padding-left: 40%;
+    
 }
 #social-media p{
-    font-size:36px;
+    font-size:20px;
     font-weight:600;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 20px;
+}
+.find::before{
+    content:'';
+    background: #7b1798;
+    height:5px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: auto;
+    display:block;
+    transform:translateY(63px);
+}
+.find::after{
+    content:'';
+    background: #7b1798;
+    height:10px;
+    width:50px;
+    margin-left:12%;
+    margin-right: auto;
+    margin-bottom:40px;
+    display:block;
+    transform:translateY(26px);
 }
 .social-icons img{
-    width:60px;
+    width:40px;
     transition:0.5s;
-    text-align: centre;
+    
+   
 }
 .social-icons a:hover img{
     transform:translateY(-10px);
 }
-
-
+#footer{
+    background-image: linear-gradient(to right,#5f1782,#a517ba);
+    color:#fff;
+    
 
 }
+.footer-img{
+    width:80%;
+    height:40%;
+    padding: 30px;
+    padding-left: 28%;
+
+}
+.footer-text{
+    padding-left:25px;
+    margin-top: 0px;
+}
+.footer-widget{
+    padding-left:25px;
+    margin-top: 0px;
+}
+.fa-map-marker{
+    padding-left:25px;
+    margin-top: 100px;
+
+}
+
+
+
+
+
